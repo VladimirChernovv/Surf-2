@@ -16,7 +16,8 @@ body {
 	text-transform: uppercase;
 	color: #fff;
 	margin: 0;
-  padding: 0;
+	padding: 0;
+	
 }
 
 .container {
@@ -77,12 +78,15 @@ ul, li {
 }
 
 .title {
-	span {
+	div {
 		font-weight: 800;
 		font-size: 200px;
 		color: rgba(#fff, .02);
 		position: relative;
 		transform: translateX(-50px);
+		display: inline-block;
+	}
+	span {
 		display: inline-block;
 	}
 	h3 {
